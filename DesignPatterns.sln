@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataVisualiser", "A - Creat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainProject", "A - Creational\Builder\MainProject\MainProject.csproj", "{C87585B6-28C3-BA5B-A6FF-00415592BCEC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Prototype", "05 - Prototype", "{B2D2CC29-4580-490E-BC24-6ADDF05BBAB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelKnockoff", "A - Creational\Prototype\ExcelKnockoff\ExcelKnockoff.csproj", "{ABA7BABB-B190-4E77-B7C2-AF2089785335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{C87585B6-28C3-BA5B-A6FF-00415592BCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C87585B6-28C3-BA5B-A6FF-00415592BCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C87585B6-28C3-BA5B-A6FF-00415592BCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA7BABB-B190-4E77-B7C2-AF2089785335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA7BABB-B190-4E77-B7C2-AF2089785335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA7BABB-B190-4E77-B7C2-AF2089785335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA7BABB-B190-4E77-B7C2-AF2089785335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,8 @@ Global
 		{713B2A7D-0C3B-BAA9-3E21-E4B514EE948F} = {4A219A09-DDE2-4130-9937-AC0E57D857B8}
 		{BF0DA6BA-CA36-1FBC-2AE9-747880186A58} = {4A219A09-DDE2-4130-9937-AC0E57D857B8}
 		{C87585B6-28C3-BA5B-A6FF-00415592BCEC} = {4A219A09-DDE2-4130-9937-AC0E57D857B8}
+		{B2D2CC29-4580-490E-BC24-6ADDF05BBAB3} = {6530D155-4B54-41FF-AA48-FE191A109D5C}
+		{ABA7BABB-B190-4E77-B7C2-AF2089785335} = {B2D2CC29-4580-490E-BC24-6ADDF05BBAB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7C8A286-137B-423C-9368-8B73EA9FB9A4}
