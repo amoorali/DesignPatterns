@@ -23,9 +23,24 @@ namespace ProxyImplementation
             myDocumentProxy.DisplayDocument();
             myDocumentProxy.DisplayDocument();
             myDocumentProxy.DisplayDocument();
-            myDocumentProxy.DisplayDocument();
 
+            Console.WriteLine();
 
+            // with chained proxy
+            Console.WriteLine("Constructing protected document proxy.");
+            var myProtectedDocumentProxy = new ProtectedDocumentProxy("MyDocument.pdf", "Viewer");
+
+            Console.WriteLine("Protected document proxy constructed.");
+            myProtectedDocumentProxy.DisplayDocument();
+
+            Console.WriteLine();
+
+            // with chained proxy, no access
+            Console.WriteLine("Constructing protected document proxy.");
+            myProtectedDocumentProxy = new ProtectedDocumentProxy("MyDocument.pdf", "AnotherRole");
+
+            Console.WriteLine("Protected document proxy constructed.");
+            myProtectedDocumentProxy.DisplayDocument();
 
         }
     }
