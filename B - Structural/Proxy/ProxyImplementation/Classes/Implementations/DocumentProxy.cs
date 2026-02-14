@@ -15,8 +15,7 @@ namespace ProxyImplementation.Classes.Implementations
 
         public void DisplayDocument()
         {
-            Console.WriteLine($"Title: {_document.Value.Title}," +
-                $" Content: {_document.Value.Content}");
+            _document.Value.DisplayDocument();
         }
     }
 }
