@@ -15,7 +15,7 @@ namespace CommandImplementation.Classes.Implementations
             }
         }
 
-        public void Undo(ICommand command)
+        public void Undo()
         {
             if (_commands.Any())
             {
