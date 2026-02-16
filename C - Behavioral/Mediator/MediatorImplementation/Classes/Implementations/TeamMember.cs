@@ -19,7 +19,12 @@ namespace MediatorImplementation.Classes.Implementations
 
         public void Send(string message)
         {
-            _chatRoom.Send(Name, message);
+            _chatRoom?.Send(Name, message);
+        }
+
+        public void Send(string to, string message)
+        {
+            _chatRoom?.Send(Name, to, message);
         }
 
         public virtual void Receive(string from, string message)

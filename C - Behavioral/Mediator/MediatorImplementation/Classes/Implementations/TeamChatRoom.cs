@@ -19,5 +19,12 @@ namespace MediatorImplementation.Classes.Implementations
             foreach (var teamMember in _teamMembers.Values)
                 teamMember.Receive(from, message);
         }
+
+        public void Send(string from, string to, string message)
+        {
+            var teamMember = _teamMembers[to];
+
+            teamMember?.Receive(from, message);
+        }
     }
 }
