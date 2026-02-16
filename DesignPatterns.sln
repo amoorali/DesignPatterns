@@ -103,6 +103,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - Iterator", "09 - Itera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorImplementation", "C - Behavioral\Iterator\IteratorImplementation\IteratorImplementation.csproj", "{E5F27156-358E-4D5B-9B4F-3CE231A84A3B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Visitor", "10 - Visitor", "{9737DBC2-0AA3-4BF1-8C29-4A38B3B6B7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorImplementation", "C - Behavioral\Visitor\VisitorImplementation\VisitorImplementation.csproj", "{6F848FAF-9259-4E9C-95A2-DB4ED82BECC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +221,10 @@ Global
 		{E5F27156-358E-4D5B-9B4F-3CE231A84A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5F27156-358E-4D5B-9B4F-3CE231A84A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5F27156-358E-4D5B-9B4F-3CE231A84A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F848FAF-9259-4E9C-95A2-DB4ED82BECC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F848FAF-9259-4E9C-95A2-DB4ED82BECC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F848FAF-9259-4E9C-95A2-DB4ED82BECC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F848FAF-9259-4E9C-95A2-DB4ED82BECC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -269,6 +277,8 @@ Global
 		{37916B65-FF59-4A44-B89A-98DB8F89F639} = {D3F165C4-ACAA-4A8E-8F51-A809A6E51332}
 		{4B6B8F65-E6C3-4F9C-831B-7991A14B3675} = {7A4F5133-FB3A-441E-B522-30DBFA183573}
 		{E5F27156-358E-4D5B-9B4F-3CE231A84A3B} = {4B6B8F65-E6C3-4F9C-831B-7991A14B3675}
+		{9737DBC2-0AA3-4BF1-8C29-4A38B3B6B7D9} = {7A4F5133-FB3A-441E-B522-30DBFA183573}
+		{6F848FAF-9259-4E9C-95A2-DB4ED82BECC9} = {9737DBC2-0AA3-4BF1-8C29-4A38B3B6B7D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7C8A286-137B-423C-9368-8B73EA9FB9A4}
